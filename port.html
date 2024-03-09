@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--font awwsome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styl-port.css">
+    <link rel="stylesheet" href="media-query.css">
+</head>
+<body>
+    <header class = "header">
+        <a href="#" class="logo" style="color: orangered;">Thirumulanathan</a>
+        <nav class="navbar">
+
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#About" style="--i:2">About</a>
+            <a href="#works" style="--i:3">Project</a>
+            <a href="#skill" style="--i:4">Skill</a>
+            <a href="#contact" style="--i:6">Contact</a>
+            
+        </nav>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <nav class="side-navbar">
+            <p class="cross-icon" onclick="closeNavbar()"><i class="fa-solid fa-xmark"></i></p>
+    
+            <p class="side-navlink"><a href="#home">Home</a></p>
+            <p class="side-navlink"><a href="#About">About</a></p>
+            <p class="side-navlink"><a href="#works">Project</a></p>
+            <p class="side-navlink"><a href="#skill">Skill</a></p>
+            <p class="side-navlink"><a href="#contact">Contact</a></p>
+
+        </nav>
+
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Front-end <span style="color: orangered;">Django</span></h1>
+            <h3>Developer 👋🏼</h3>
+            <p>Hi , I'm Thirumulanathan A passionate Front-end Developer, pursuing <br>BE - Electrical and Electronics Engineering </p>
+            <div class="home-sci">
+                <a href="https://www.linkedin.com/in/thirumulanathan-v-1b115a298/" style="--i:9"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://github.com/THIRUMULANATHAN" style="--i:10"><i class="bx bxl-github"></i></a>
+                <a href="https://www.instagram.com/_t_h_i_r_u_05_/" style="--i:8"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61552943614935" style="--i:7"><i class="bx bxl-facebook"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="About">
+        <div class="about-img">
+            <img src="img.png">
+        </div>
+        <div class="about-text">
+            <h2>About <span> Me</span></h2>
+            <h4>Passionate Front-end Developer</h4>
+            <p>"Hello, I'm a passionate front-end developmer. I have extensive experience in building responsive and user-friendly web applications using cutting-edge technologies such as HTML, CSS, JavaScript, Django. My goal is to create innovative solutions that meet the needs of clients and users alike, while continuously expanding my skills and knowledge in the ever-evolving field of web development."</p>
+        </div>
+    </section>
+
+    <section class="services" id="works">
+        <div class="container">
+            <h1 class="sub-title">My <span>Projects</span></h1>
+            <div class="services-list">
+                <div>
+                    <i class="bx bx-cart" style="color: orangered;"></i>  
+                    <h2>E-commerce Site</h2>
+                    <p>Engaging e-commerce landing page with seamless <b>responsiveness</b> for optimal user experience and toggles upon smaller screen size.</p>
+                    <a href="#" class="read">Visit</a>
+                </div>
+                <div>
+                    <i class="bx bx-calculator" style="color: orangered;"></i>
+                    <h2>Calculator</h2>
+                    <p>Functional calculator application designed for ease of use, supporting <b>basic arithmetic logrithimic operations</b> with <b>responsive layout</b>.</p>
+                    <a href="#" class="read">Visit</a>
+                </div>
+                <div>
+                    <i class="bx bx-music" style="color: orangered;"></i>
+                    <h2>Music player</h2>
+                    <p>Responsive music player with <b>play, pause, controls</b> functionality also features<b> progress bar, and mobile-friendly design</b> for seamless playback.</p>
+                    <a href="#" class="read">Visit</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skill"></section>
+    <h1 class="sub-title">My <span>Skills</span></h1>
+        <div class="skills">
+            <div class="skill-1">
+                <h3>HTML</h3>
+                <div class="checkmark-container">
+                    <i class="bx bx-check" style="color: orangered ;"></i> 
+                    <p>  Experienced</p>
+                </div>
+            </div>
+            <div class="skill-2">
+                <h3>CSS</h3>
+                <div class="checkmark-container">
+                    <i class="bx bx-check" style="color: orangered ;"></i> 
+                    <p>  Experienced</p>
+                </div>
+            </div>
+            <div class="skill-3">
+                <h3>JavaScript</h3>
+                <div class="checkmark-container">
+                    <i class="bx bx-check" style="color: orangered ;"></i> 
+                    <p>Intermediate</p>
+                </div>
+            </div>
+            <div class="skill-4">
+                <h3>Python</h3>
+                <div class="checkmark-container">
+                    <i class="bx bx-check" style="color: orangered ;"></i> 
+                    <p>Intermediate</p>
+                </div>
+            </div>
+            <div class="skill-5">
+                <h3>C++</h3>
+                <div class="checkmark-container">
+                    <i class="bx bx-check" style="color: orangered ;"></i> 
+                    <p>Intermediate</p>
+                </div>
+            </div>
+            <div class="skill-6">
+                <h3>Django</h3>
+                <div class="checkmark-container">
+                    <i class="bx bx-check"></i> 
+                    <p>Beginner</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="contact">
+        <h1 class="sub-title" id="con-sub">Contact <span>Me</span></h1>
+
+            <div class="links">
+                <a href="thirumulanathan2005v@gmail.com"><i class="bx bxl-gmail"></i>thirumulanathan2005v@gmail.com</a>
+                <a href="https://www.linkedin.com/in/thirumulanathan-v-1b115a298/"><i class='bx bxl-linkedin'></i>Linkedin</a>
+                <a href="https://www.instagram.com/_t_h_i_r_u_05_/"><i class="bx bxl-instagram"></i>Instagram</a>
+            </div> 
+   </div>
+ <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+ <script src="script-port.js"></script>
+ 
+</body>
